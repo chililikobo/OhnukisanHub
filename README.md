@@ -45,6 +45,8 @@ Stop wasting time running slow scripts or manually compiling PC specs into sprea
 | **Report Stamp (HTML / MD / CSV)** | `Trial (Unregistered)` | **Licensed email** (ready for client delivery & audit records) |
 | **Post-Scan Auto-Deletion** | Locked ON | **Toggle ON / OFF** per workflow |
 
+> **Note (1 License per Management PC / USB Drives & Updates):** Each Pro license is intended for **one management PC** (additional activation slots are provided as a buffer for PC replacement or OS reinstallation; use the exported `OhnukiSan.exe` + `ohnuki-pro.dat` on a USB drive or shared folder to scan multiple target PCs). Because `license.dat` is machine-bound, place `OhnukiHub.exe` in a local folder on your management PC—copying an activated Hub folder to another PC or running Hub from a USB drive on a different PC automatically deletes `license.dat` and reverts Hub to Free mode, requiring re-activation (consuming a migration slot) even when returning to the original PC. To use Pro on multiple management PCs, purchase one license per PC. When updating Hub to a new version, copy `license.dat` from your previous folder to keep your activation without consuming a slot.
+
 ### Terms & Disclaimer
 - **License**: Hub and Standard scanner are free; Pro features are provided with a paid license. Secondary distribution is prohibited. See the [official page](https://chililikobo.github.io/en/ohnuki-san-hub.html) for details.
 - **Data Privacy**: Collected inventory data is never transmitted externally. External communication occurs only with the Gumroad API during Pro license activation/verification (`OhnukiSan.exe` performs zero external communication).
@@ -97,6 +99,8 @@ Ohnuki-san Hub（大抜さん Hub）は、スタンドアロン型 Windows PC IT
 | **有効期限** | 24時間固定 | **1・3・7・14・30日**（前日準備・メール/チャット ZIP 配布対応） |
 | **レポート表記 (HTML / MD / CSV)** | `Trial (Unregistered)` | **正規ライセンス表記**（客先納品・監査証跡に対応） |
 | **実行後の自動削除** | 常に ON（固定） | **ON / OFF を用途に応じて切替可能** |
+
+> **ご注意（1ライセンス1管理PC・USB メモリ利用・アップデート時）:** Pro ライセンスは**1ライセンスにつき管理用 PC 1台**での利用を前提としています（認証回数の余裕枠は PC 買い替えや OS 再インストール時の移行用です。複数 PC をスキャンする用途には Hub から書き出した `OhnukiSan.exe` と `ohnuki-pro.dat` をご使用ください）。`license.dat` は認証した PC に紐づけられるため、`OhnukiHub.exe` 本体は管理用 PC のローカルフォルダへ配置してください。認証済みフォルダを別 PC へコピーしたり USB メモリ上の `OhnukiHub.exe` を別 PC で起動すると、端末不一致により `license.dat` が自動削除されて未認証（Free）状態へ戻り、元の PC に戻しても再認証（移行枠の消費）が必要になります。複数台の管理 PC で Pro 版を利用する場合は台数分のライセンスをご購入ください。また、新バージョンへアップデートする際は旧フォルダの `license.dat` を新しいフォルダへコピーすると、再認証・枠消費なしで引き継げます。
 
 ### 利用規約・免責事項
 - **ライセンス**: Hub 本体および標準調査は無料、詳細監査の拡張機能は有料ライセンスにより提供されます。二次配布は原則禁止します。詳細は[公式ページ](https://chililikobo.github.io/ohnuki-san-hub.html)をご参照ください。
