@@ -5,6 +5,7 @@
 [![License](https://badgen.net/badge/license/Free%20%2F%20Commercial/purple)](#editions--licensing)
 [![Platform](https://badgen.net/badge/platform/Windows%2011%20%2F%2010%20%2F%20Server/black)](https://chililikobo.github.io/en/ohnuki-san-hub.html)
 
+![ohnuki-san-hub-analytics-en.jpg](ohnuki-san-hub-analytics-en.jpg)
 ![ohnuki-san-hub-report-en.jpg](ohnuki-san-hub-report-en.jpg)
 
 [English](#english) | [日本語](#日本語)
